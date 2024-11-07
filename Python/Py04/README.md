@@ -4,12 +4,6 @@
 
 
 # PRT(Peer Review Template)
-# AIFFEL Campus Online Code Peer Review Templete
-- 코더 : 안승보
-- 리뷰어 : 강소안
-
-
-# PRT(Peer Review Template)
 - [x]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
      
      - 과제의 수행 조건을 반영해 완성된 코드를 제출하였습니다.
@@ -44,7 +38,8 @@ OperatorError Class
 ```
 
 
-    - 핵심 코드 블록은 기타error를 class 선언, 연산자를 딕셔너리방식으로 람다로 분류한 부분입니다.
+    -핵심 코드 블록은 기타error를 class 선언, 연산자를 딕셔너리방식으로 람다로 분류한 부분입니다.(class는 상기 OperatorError Class 참조) 
+     
 ```
 operator_dict = {"+": lambda x, y: x + y, "-": lambda x, y: x - y, "*": lambda x, y: x * y, "/": lambda x, y: x / y, "**": lambda x, y: math.pow(x, y)}
 ```
