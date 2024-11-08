@@ -1,7 +1,17 @@
 ## 프로젝트 설명
 Python을 활용해 사각형 넓이 계산기와 키오스크 프로그램을 구현하는 프로젝트입니다. 두 모듈로 구성되어 있으며, `square` 모듈은 사각형의 넓이를 계산하는 기능을, `kiosk` 모듈은 키오스크 기능을 제공합니다.
 
----
+## 폴더 구조
+```
+├─kiosk
+│      custom_exception.py
+│      kiosk.py
+│      main.py
+│
+└─square
+        main.py
+        square.py
+```
 
 ### 1. 사각형 넓이 계산기: `square`
 
