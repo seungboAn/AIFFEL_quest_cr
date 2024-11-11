@@ -26,7 +26,8 @@ from characters.player import Player
 import actions.action as action
 
 def main():
-    player = Player('용사')
+    user_input = input("플레이어의 이름을 입력해 주세요: ")
+    player = Player(user_input)
     monster_dict = {'슬라임': 1, '고블린': 2, '오크': 3}
     monsters = []
     for key, value in monster_dict.items():
