@@ -1,10 +1,3 @@
-# Player 클래스
-# Character를 상속 받기
-# 레벨 1, 체력 100, 공격력 25, 방어력 5로 초기화하기
-# Player 클래스는 경험치 속성을 추가로 가짐
-# 인수로 받은 정수 만큼 경험치를 획득하는 gain_experience 메서드 만들기
-# 현재 경험치가 50이상이면 레벨을 1, 공격력을 10, 방어력을 5씩 올리는 level_up 메서드 만들기
-
 from .character import Character
 
 class Player(Character):

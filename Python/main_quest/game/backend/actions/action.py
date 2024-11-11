@@ -2,7 +2,7 @@ from characters.monster import Monster
 from characters.player import Player
 
 def battle(p: Player, m: Monster):
-    print(f'{m.name}과(와)의 전투를 시작합니다.\n{'-' * 50}')
+    print(f'{m.name}과(와)의 전투를 시작합니다.\n{"-" * 50}')
     while True:
         p.attack_target(m)
         if m.is_alive() == False:
