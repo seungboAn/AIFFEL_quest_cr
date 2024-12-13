@@ -17,7 +17,7 @@ class PomodoroTimer {
         if (this.cycle % this.specificCycle != 0) {
             timeChecker(this.workingTime, this.breakTime);
         } else {
-            timeChecker(25, 10);
+            timeChecker(25, 15);
         }
     }
 
