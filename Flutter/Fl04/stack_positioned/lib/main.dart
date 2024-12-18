@@ -41,13 +41,31 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               color: Colors.blue,
               width: 300,
-              height: 200,
+              height: 300,
             ),
             Positioned(
               right: 20,
               bottom: 20,
-              child: Text('Hello, Flutter', style: TextStyle(color: Colors.white))
-            )
+              child: Container(
+                color: Colors.red,
+                width: 240,
+                height: 240,
+              )
+            ),
+            Positioned(
+              right: 40,
+              bottom: 40,
+              child: Container(
+                color: Colors.black,
+                width: 180,
+                height: 180,
+              )
+            ),
+            // Positioned(
+            //   right: 20,
+            //   bottom: 20,
+            //   child: Text('Hello, Flutter', style: TextStyle(color: Colors.white))
+            // )
           ],
         )
     );
