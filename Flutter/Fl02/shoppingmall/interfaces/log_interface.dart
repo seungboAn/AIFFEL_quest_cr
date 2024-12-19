@@ -1,5 +1,5 @@
 interface class Loggable {
     void log() {
-        print('log')
+        print('log');
     }
 }

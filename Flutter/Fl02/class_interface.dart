@@ -12,7 +12,7 @@ interface class RefundProcessor {
 
 interface class Loggable {
     void log() {
-        print('log')
+        print('log');
     }
 }
 
@@ -27,15 +27,15 @@ class Payment implements PaymentProcessor, RefundProcessor  {
         print('Refund');
     }
 
-    @override
-    void refund123() {
-        print('Refund123');
-    }
+    // @override
+    // void refund123() {
+    //     print('Refund123');
+    // }
 }
 
 void main() {
     Payment pay = new Payment();
     pay.pay();
     pay.refund();
-    pay.refund123();
+    // pay.refund123();
 }
